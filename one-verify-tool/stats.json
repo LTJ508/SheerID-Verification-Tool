@@ -1,7 +1,7 @@
 {
-  "total": 5,
-  "success": 2,
-  "failed": 3,
+  "total": 11,
+  "success": 7,
+  "failed": 4,
   "orgs": {
     "University of Michigan": {
       "success": 0,
@@ -20,6 +20,30 @@
       "failed": 0
     },
     "University of British Columbia": {
+      "success": 1,
+      "failed": 0
+    },
+    "New York University": {
+      "success": 1,
+      "failed": 0
+    },
+    "Northern Virginia Community College": {
+      "success": 1,
+      "failed": 0
+    },
+    "University of Wisconsin-Madison": {
+      "success": 1,
+      "failed": 0
+    },
+    "Ohio State University": {
+      "success": 0,
+      "failed": 1
+    },
+    "Cornell University": {
+      "success": 1,
+      "failed": 0
+    },
+    "University of California, Irvine": {
       "success": 1,
       "failed": 0
     }

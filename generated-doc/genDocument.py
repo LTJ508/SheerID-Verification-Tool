@@ -132,10 +132,10 @@ def generate_student_id(first: str, last: str, school: str):
     #save image locally
     img.save(f"{school}_{first}_{last}_student_id.png")
 
-first_name = "John"
-last_name = "Doe"
-school_name = "State University"
-dob = "1998-04-15"
+first_name = "Dee Dee"
+last_name = "Vaughan"
+school_name = "Pennsylvania State University-Main Campus"
+dob = "2003-11-06"
 
 generate_transcript(first=first_name, last=last_name, school=school_name, dob=dob)
 generate_student_id(first=first_name, last=last_name, school=school_name)
