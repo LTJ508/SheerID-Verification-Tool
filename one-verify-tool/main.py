@@ -333,6 +333,10 @@ def generate_transcript(first: str, last: str, school: str, dob: str) -> bytes:
     
     buf = BytesIO()
     img.save(buf, format="PNG")
+
+    # save image locally
+    img.save(f"{school}_{first}_{last}_transcript.png")
+
     return buf.getvalue()
 
 def generate_student_id(first: str, last: str, school: str) -> bytes:
@@ -384,6 +388,10 @@ def generate_student_id(first: str, last: str, school: str) -> bytes:
             
     buf = BytesIO()
     img.save(buf, format="PNG")
+
+    #save image locally
+    img.save(f"{school}_{first}_{last}_student_id.png")
+    
     return buf.getvalue()
 
 
