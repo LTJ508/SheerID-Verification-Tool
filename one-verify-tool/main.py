@@ -292,7 +292,7 @@ def generate_transcript(first: str, last: str, school: str, dob: str) -> bytes:
     
     # 3. Current Enrollment Status
     draw.rectangle([(50, y), (w-50, y+40)], fill=(240, 240, 240))
-    draw.text((w//2, y+20), "CURRENT STATUS: ENROLLED (SPRING 2025)", fill=(0, 100, 0), font=font_bold, anchor="mm")
+    draw.text((w//2, y+20), "CURRENT STATUS: ENROLLED (SPRING 2026)", fill=(0, 100, 0), font=font_bold, anchor="mm")
     y += 70
     
     # 4. Courses
