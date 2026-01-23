@@ -1,7 +1,7 @@
 {
-  "total": 11,
+  "total": 12,
   "success": 7,
-  "failed": 4,
+  "failed": 5,
   "orgs": {
     "University of Michigan": {
       "success": 0,
@@ -46,6 +46,10 @@
     "University of California, Irvine": {
       "success": 1,
       "failed": 0
+    },
+    "University of Chicago": {
+      "success": 0,
+      "failed": 1
     }
   }
 }
